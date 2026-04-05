@@ -1,19 +1,18 @@
 header {
     width: 1440px;
     height: 88px;
+    border-bottom: 1px solid #3D4554;
 }
 
 .header_inner {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    max-width: 1440px;
-    height: 88px;
+    width: 100%;
+    height: 100%;
+    margin-left: 111px;
 }
 
 .header_logo {
-  width: 170px;
-  height: 40px;
   display: flex;
   margin-right: 140px;
 }
@@ -22,6 +21,18 @@ header {
   width: 44px;
   height: 40px;
   margin-right: 14px;
+}
+
+.logo_text span {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 800;  
+}
+
+.logo_text {
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 200;
 }
 
 .header_menu {
@@ -39,22 +50,14 @@ header {
   align-items: center;
 }
 
-.header_logo {
-    width: 44px;
-    height: 40px;
-    margin-right: 14px;
-}
-
-.logo_text {
-    font-size: 36px;
-    & span {
-        font-weight: bold;
-    }
-}
-
 .menu_list {
     display: flex;
     gap: 32px;
+    margin-right: 454px;
+    & a {
+      text-decoration: none;
+      color: #fff;
+    }    
 }
 
 /* ВНИМАНИЕ!!!! ДАЛЕЕ СЕКЦИИ ВАЙБОКОДИНГА!!! */
@@ -63,51 +66,57 @@ header {
     width: 89px;
     height: 40px;
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 20px;
     cursor: pointer;
     position: relative;
     font-family: Arial, sans-serif;
+    margin-right: 32px;
   }
+
   .selected-option {
     display: flex;
     align-items: center;
     height: 100%;
-    padding: 0 8px;
   }
+
   .selected-option img {
     width: 20px;
     height: 20px;
-    margin-right: 8px;
+    margin: 12px 8px 12px 12px;
     border-radius: 50%;
   }
+
   .options {
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
-    border: 1px solid #ccc;
-    border-top: none;
+    border: none;
     border-radius: 0 0 8px 8px;
-    background: #073969;
-    z-index: 1000;
+    background: transparent;
+    z-index: 2;
   }
+
   #language-selector.open .options {
     display: flex;
     flex-direction: column;
   }
+
   .option {
     display: flex;
     align-items: center;
-    padding: 4px 8px;
     cursor: pointer;
+    padding-left: 12px;
   }
+
   .option img {
     width: 20px;
     height: 20px;
     margin-right: 8px;
     border-radius: 50%;
   }
+
   .option:hover {
     background-color: #3D4554;
   }
@@ -129,7 +138,7 @@ header {
   visibility: hidden;
   transform: translateY(-10px);
   transition: opacity 0.3s, transform 0.3s, visibility 0.3s;
-  z-index: 1000;
+  z-index: 2;
   min-width: 150px;
 }
 
@@ -165,6 +174,14 @@ header {
   border-radius: 50%;
 }
 
+.user_text {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.1;
+  color: #FFF;
+  opacity: 0.5;
+}
 .user_text_name {
   font-family: "Inter", sans-serif;
   font-weight: normal;

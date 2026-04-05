@@ -12,5 +12,5 @@
 }
 
 .chooser_item.active {
-  background-color: #fff200; /* или что-то ещё */
+  background-color: transparent; /* или что-то ещё */
 }
