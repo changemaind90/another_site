@@ -44,7 +44,7 @@ const renderSkins = (skins) => {
     div.className = 'skin-item';
     div.dataset.index = index;
     div.innerHTML = `
-      <img src="${skin.src}" alt="${skin.name}" width="80" height="80" />
+      <img src="${skin.src}" alt="${skin.name}" width="88" height="66" />
     `;
     // множественный выбор
     div.addEventListener('click', () => {

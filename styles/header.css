@@ -11,6 +11,26 @@ header {
     height: 88px;
 }
 
+.header_logo {
+  width: 170px;
+  height: 40px;
+  display: flex;
+  margin-right: 140px;
+}
+
+.logo {
+  width: 44px;
+  height: 40px;
+  margin-right: 14px;
+}
+
+.header_menu {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
 .header_logo,
 .header_menu,
 .custom-select,
@@ -89,8 +109,9 @@ header {
     border-radius: 50%;
   }
   .option:hover {
-    background-color: #f0f0f0;
+    background-color: #3D4554;
   }
+
   /* user меню */
   .header_user {
   position: relative; /* чтобы позиционировать меню внутри */
@@ -102,7 +123,7 @@ header {
   top: 100%;
   right: 0;
   background: #fff;
-  border: 1px solid #ccc;
+  border: 1px solid #3D4554;
   border-radius: 4px;
   opacity: 0;
   visibility: hidden;
@@ -131,5 +152,24 @@ header {
 
 .user_menu li:hover {
   background-color: #f0f0f0;
+}
+
+.header_user {
+  display: flex;
+}
+
+.user_logo {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #F4C038;
+  border-radius: 50%;
+}
+
+.user_text_name {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.1;
+  color: #F4C038;
 }
 
