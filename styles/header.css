@@ -1,0 +1,135 @@
+header {
+    width: 1440px;
+    height: 88px;
+}
+
+.header_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    height: 88px;
+}
+
+.header_logo,
+.header_menu,
+.custom-select,
+.header_user {
+  display: flex;
+  align-items: center;
+}
+
+.header_logo {
+    width: 44px;
+    height: 40px;
+    margin-right: 14px;
+}
+
+.logo_text {
+    font-size: 36px;
+    & span {
+        font-weight: bold;
+    }
+}
+
+.menu_list {
+    display: flex;
+    gap: 32px;
+}
+
+/* ВНИМАНИЕ!!!! ДАЛЕЕ СЕКЦИИ ВАЙБОКОДИНГА!!! */
+ /* Общие стили для селектора */
+#language-selector {
+    width: 89px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    font-family: Arial, sans-serif;
+  }
+  .selected-option {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 8px;
+  }
+  .selected-option img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    border-radius: 50%;
+  }
+  .options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    background: #073969;
+    z-index: 1000;
+  }
+  #language-selector.open .options {
+    display: flex;
+    flex-direction: column;
+  }
+  .option {
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+  .option img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    border-radius: 50%;
+  }
+  .option:hover {
+    background-color: #f0f0f0;
+  }
+  /* user меню */
+  .header_user {
+  position: relative; /* чтобы позиционировать меню внутри */
+  display: inline-block;
+}
+
+.user_menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.3s, transform 0.3s, visibility 0.3s;
+  z-index: 1000;
+  min-width: 150px;
+}
+
+.header_user.show .user_menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.user_menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.user_menu li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.user_menu li:hover {
+  background-color: #f0f0f0;
+}
+

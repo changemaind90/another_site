@@ -1,0 +1,44 @@
+footer {
+    width: 1440px;
+    height: 88px;
+}
+
+.footer_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    background-color: #F4C038;
+}
+
+.footer_inner_text {
+    font-family: SF Pro Display, sans-serif;
+    font-weight: regular;
+    font-size: 14px;
+}
+
+.footer_inner_text_cost {
+    font-family: SF Pro Display, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #20222A;
+}
+
+.footer_drop_icon {
+    width: 20px;
+    height: 20px;
+}
+
+.footer_drop_text {
+    font-weight: regular;
+    font-size: 14px;
+    line-height: 1.1;
+    color: #20222A;
+}
+
+.bill {
+    width: 203px;
+    height: 56px;
+    border-radius: 48px;
+    border: none;
+    color: #20222A;
+}

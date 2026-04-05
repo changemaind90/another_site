@@ -1,0 +1,16 @@
+.skin-item {
+  border: 2px solid transparent;
+  cursor: pointer;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 4px;
+  transition: border 0.2s;
+}
+.skin-item.selected {
+  border-color: rgb(5, 248, 191);
+}
+
+.chooser_item.active {
+  background-color: #fff200; /* или что-то ещё */
+}
