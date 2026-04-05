@@ -24,19 +24,16 @@ header {
 }
 
 .logo_text span {
-  font-family: "Inter", sans-serif;
   font-size: 36px;
   font-weight: 800;  
 }
 
 .logo_text {
-    font-family: "Inter", sans-serif;
     font-size: 36px;
     font-weight: 200;
 }
 
 .header_menu {
-  font-family: "Inter", sans-serif;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.1;
