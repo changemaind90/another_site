@@ -12,5 +12,19 @@
 }
 
 .chooser_item.active {
-  background-color: transparent; /* или что-то ещё */
+  background-color: transparent;
+  display: flex;
+}
+
+.chooser_item {
+  display: flex;
+}
+
+.choose_container {
+  display: flex;
+}
+
+.chooser_icon {
+  width: 50px;
+  height: 50px;
 }

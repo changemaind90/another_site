@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/reset.css">         <!-- СБРОС СТИЛЕЙ -->
     <link rel="stylesheet" href="styles/header.css">        <!-- ХЕДЕР СТИЛИ -->
     <link rel="stylesheet" href="styles/items_gallery.css"> <!-- СТИЛИ ГАЛЕРЕи СКИНОВ -->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="styles/hero.css">
     <link rel="stylesheet" href="styles/footer.css">        <!-- СТИЛИ ФУТЕРА -->
     
     <!-- ШРИФТЫ С ГУГЛА -->
@@ -81,57 +81,55 @@
            </div>
         </section>
 
-           <section              class="inventory">
-               <h2               class="inventory_title">Выберите инвентарь</h2>
-               <div              class="inventory__chooser">
-                <ul>
-                    <li          class="chooser_item active" data-game="game1">
-                        <img     class="chooser_icon" src="img/gallery/portrait_mode.svg" alt="Игра 1">
-                        <div     class="chooser_text_container">
-                            <p   class="c_title">Игра 1</p>
-                            <p   class="c_text">14 предметов на сумму <span class="chooser_cost">83 351.3 ₽</span></p>
+           <section                 class="inventory">
+               <h2                  class="inventory_title">Выберите инвентарь</h2>
+               <div                 class="inventory__chooser">
+                <ul                 class="choose_container">
+                    <li             class="chooser_item active" data-game="game1">
+                        <img        class="chooser_icon" src="img/gallery/portrait_mode.svg" alt="Игра 1">
+                        <div        class="chooser_text_container">
+                            <p      class="c_title">Игра 1</p>
+                            <p      class="c_text">14 предметов на сумму <span class="chooser_cost">83 351.3 ₽</span></p>
                         </div>
                     </li>
-                    <li         class="chooser_item active" data-game="game2">
-                        <img    class="chooser_icon" src="img/gallery/night_portrait.svg" alt="Игра 2">
-                        <div    class="chooser_text_container">
-                            <p  class="chooser_title">Игра 2</p>
-                            <p  class="chooser_text">8 предметов на сумму<span class="chooser_cost"> 12 547.23 ₽</span></p>
+                    <li             class="chooser_item" data-game="game2">
+                        <img        class="chooser_icon" src="img/gallery/night_portrait.svg" alt="Игра 2">
+                        <div        class="chooser_text_container">
+                            <p      class="chooser_title">Игра 2</p>
+                            <p      class="chooser_text">8 предметов на сумму<span class="chooser_cost"> 12 547.23 ₽</span></p>
                         </div>
                     </li>
                 </ul>
                </div>
-               <h3              class="skin_choose">Выберите скины для обмена</h3>
+               <h3                  class="skin_choose">Выберите скины для обмена</h3>
                     
-               <button          class="chooser_btn_refresh">Обновить инвентарь</button>
-               <div             class="skins">
-                    <div        class="skins_top">
-                        <input  type="checkbox">
-                        <p      class="choose_all">Выбрать все</p>
+               <button              class="chooser_btn_refresh">Обновить инвентарь</button>
+               <div                 class="skins">
+                    <div            class="skins_top">
+                        <input      class=""  type="checkbox">
+                        <p          class="choose_all">Выбрать все</p>
                         <svg>
                         </svg>
-                        <input  class="skins_search" type="search">
-                        <div    class="hotskins">
-                            <img src="img/hot.svg" alt="">
-                            <p  class="hotskins_text">Только горячие цены</p>
-                            <input type="checkbox">
+                        <input      class="skins_search" type="search">
+                        <div        class="hotskins">
+                            <img    src="img/hot.svg" alt="">
+                            <p      class="hotskins_text">Только горячие цены</p>
+                            <input  type="checkbox">
                         </div>
-                        <div    class="skins_range">
+                        <div        class="skins_range">
                             <!-- выпадющий список  -->
                         </div>
                     </div>
            </section>
 
-                <div        class="skins_gallery">
-                    <div    class="skins-gallery" id="skins-gallery">
+                <div            class="skins-gallery" id="skins-gallery">
                         <!-- Тут будут скины, динамически подгружаемые -->
-                    </div>
                 </div>
-
-                <div        class="skins_couter_summary">
-                    <p      class="skins_left">Ещё 521 предмета в инвентаре нельзя продать</p>
-                    <div    class="summary_inner">
-                        <svg></svg>
+                
+                <div                class="skins_couter_summary">
+                    <p              class="skins_left">Ещё 521 предмета в инвентаре нельзя продать</p>
+                    <div            class="summary_inner">
+                        <img src="img/why.svg" alt="">
                         <span>Почему?</span>
                     </div>
                 </div>
