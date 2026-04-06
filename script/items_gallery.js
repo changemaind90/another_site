@@ -31,7 +31,7 @@ const renderSkins = (skins) => {
 };
 
 // Найдём все пункты выбора игры, предположим, что они по структуре — это li внутри .hero_inventory__chooser ul
-const gameItems = document.querySelectorAll('.inventory__chooser ul li');
+const gameItems = document.querySelectorAll('.chooser.inventory__chooser ul li');
 
 gameItems.forEach(item => {
   // добавляем обработчик
