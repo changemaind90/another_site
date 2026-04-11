@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+.chooser_item {
+    border: 2px solid #EFBC3A;
+    border-left: ;
+}
+
+.chooser_cost {
+    color: #F4C038;
+}
+
+.chooser_icon {
+    width: 48px;
+    height: 48px;
+    margin: 16px;    
+}

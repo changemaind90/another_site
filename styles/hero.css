@@ -9,3 +9,11 @@
 .hero_input {
     
 }
+
+.hero_question_container {
+    display: flex;
+}
+
+.hero_question_text {
+    color: #F4C038;
+}
