@@ -6,40 +6,21 @@
 .div {
   background: var(--podlozhka, #272e3b);
   height: 880px;
-  position: relative;
-  overflow: hidden;
-}
-
-.div2 {
-  background: var(--fon-temnyj-tekst, #20222a);
-  width: 1440px;
-  height: 1224px;
-  position: absolute;
-  left: 0px;
-  top: 325px;
-  overflow: hidden;
 }
 
 .footer-1280 {
-  background: var(--podlozhka, #272e3b);
+  background: var(--podlozhka, #272E3B);
   width: 1440px;
   height: 48px;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  overflow: hidden;
 }
 
 .copyright-skincash-ru {
-  color: var(--vtorostepennyj-tekst, rgba(255, 255, 255, 0.5));
-  text-align: left;
   font-family: var(--text-medium-font-family, "Rubik-Regular", sans-serif);
   font-size: var(--text-medium-font-size, 14px);
-  line-height: var(--text-medium-line-height, 20px);
   font-weight: var(--text-medium-font-weight, 400);
-  position: absolute;
-  left: 108px;
-  top: 14px;
+  line-height: var(--text-medium-line-height, 20px);
+  text-align: left;
+  color: var(--vtorostepennyj-tekst, rgba(255, 255, 255, 0.5));
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -51,9 +32,6 @@
   gap: 32px;
   align-items: flex-start;
   justify-content: flex-start;
-  position: absolute;
-  right: 108px;
-  top: 14px;
 }
 
 .div3 {
@@ -63,20 +41,9 @@
   font-size: var(--text-medium-font-size, 14px);
   line-height: var(--text-medium-line-height, 20px);
   font-weight: var(--text-medium-font-weight, 400);
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-}
-
-.frame-371 {
-  background: var(--podlozhka, #272e3b);
-  width: 1440px;
-  height: 1px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: hidden;
 }
 
 .div4 {
@@ -86,9 +53,6 @@
   font-size: var(--h1-font-size, 48px);
   line-height: var(--h1-line-height, 56px);
   font-weight: var(--h1-font-weight, 700);
-  position: absolute;
-  left: 108px;
-  top: 120px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -101,9 +65,6 @@
   font-size: 40px;
   line-height: 48px;
   font-weight: 300;
-  position: absolute;
-  left: 108px;
-  top: 215px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -116,9 +77,6 @@
   font-size: 40px;
   line-height: 48px;
   font-weight: 300;
-  position: absolute;
-  left: 420px;
-  top: 215px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -131,9 +89,6 @@
   font-size: 40px;
   line-height: 48px;
   font-weight: 300;
-  position: absolute;
-  left: 732px;
-  top: 215px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -146,9 +101,6 @@
   font-size: var(--text-big-font-size, 16px);
   line-height: var(--text-big-line-height, 22px);
   font-weight: var(--text-big-font-weight, 400);
-  position: absolute;
-  left: 108px;
-  top: 271px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -161,9 +113,6 @@
   font-size: var(--text-big-font-size, 16px);
   line-height: var(--text-big-line-height, 22px);
   font-weight: var(--text-big-font-weight, 400);
-  position: absolute;
-  left: 420px;
-  top: 271px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -176,9 +125,6 @@
   font-size: var(--text-big-font-size, 16px);
   line-height: var(--text-big-line-height, 22px);
   font-weight: var(--text-big-font-weight, 400);
-  position: absolute;
-  left: 732px;
-  top: 271px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -189,15 +135,11 @@
   border-radius: 16px;
   width: 288px;
   height: 234px;
-  position: absolute;
-  left: 420px;
-  top: 373px;
   box-shadow: var(
     --shadow-400-box-shadow,
     0px 8px 24px -4px rgba(24, 39, 75, 0.08),
     0px 6px 12px -6px rgba(24, 39, 75, 0.12)
   );
-  overflow: hidden;
 }
 
 .tasty-drop-com {
@@ -207,9 +149,6 @@
   font-size: var(--h3-font-size, 24px);
   line-height: var(--h3-line-height, 32px);
   font-weight: var(--h3-font-weight, 500);
-  position: absolute;
-  left: 24px;
-  top: 20px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -218,9 +157,6 @@
 .div9 {
   width: 20px;
   height: 20px;
-  position: absolute;
-  right: 24px;
-  top: 26px;
 }
 
 .ellipse-45 {
@@ -230,9 +166,6 @@
   border-width: 2px;
   width: 4px;
   height: 4px;
-  position: absolute;
-  left: 1px;
-  top: 8px;
 }
 
 .ellipse-46 {
@@ -242,9 +175,6 @@
   border-width: 2px;
   width: 4px;
   height: 4px;
-  position: absolute;
-  left: 8px;
-  top: 8px;
 }
 
 .ellipse-47 {
@@ -254,9 +184,6 @@
   border-width: 2px;
   width: 4px;
   height: 4px;
-  position: absolute;
-  left: 15px;
-  top: 8px;
 }
 
 .div10 {
@@ -266,9 +193,6 @@
   font-size: var(--text-big-font-size, 16px);
   line-height: var(--text-big-line-height, 22px);
   font-weight: var(--text-big-font-weight, 400);
-  position: absolute;
-  left: 24px;
-  top: 72px;
   width: 240px;
 }
 
@@ -279,15 +203,11 @@
   border-width: 1px;
   width: 288px;
   height: 234px;
-  position: absolute;
-  left: 108px;
-  top: 373px;
   box-shadow: var(
     --shadow-400-box-shadow,
     0px 8px 24px -4px rgba(24, 39, 75, 0.08),
     0px 6px 12px -6px rgba(24, 39, 75, 0.12)
   );
-  overflow: hidden;
 }
 
 .input {
@@ -296,10 +216,6 @@
   border-color: var(--razdeliteli, #3d4554);
   border-width: 1px;
   height: 48px;
-  position: absolute;
-  right: 23px;
-  left: 23px;
-  top: 80px;
 }
 
 .div12 {
@@ -309,9 +225,6 @@
   font-size: var(--table-medium-font-size, 14px);
   line-height: var(--table-medium-line-height, 16px);
   font-weight: var(--table-medium-font-weight, 400);
-  position: absolute;
-  left: 24px;
-  top: 16px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -327,10 +240,6 @@
   align-items: center;
   justify-content: center;
   height: 48px;
-  position: absolute;
-  left: 25px;
-  top: 152px;
-  overflow: hidden;
 }
 
 .div14 {
@@ -340,7 +249,6 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  position: relative;
 }
 
 .div15 {
@@ -350,7 +258,6 @@
   font-size: var(--button-font-size, 16px);
   line-height: var(--button-line-height, 20px);
   font-weight: var(--button-font-weight, 500);
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -363,9 +270,6 @@
   font-size: var(--h2-font-size, 32px);
   line-height: var(--h2-line-height, 40px);
   font-weight: var(--h2-font-weight, 500);
-  position: absolute;
-  left: 132px;
-  top: 393px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -376,15 +280,11 @@
   border-radius: 16px;
   width: 288px;
   height: 234px;
-  position: absolute;
-  left: 732px;
-  top: 373px;
   box-shadow: var(
     --shadow-400-box-shadow,
     0px 8px 24px -4px rgba(24, 39, 75, 0.08),
     0px 6px 12px -6px rgba(24, 39, 75, 0.12)
   );
-  overflow: hidden;
 }
 
 .tasty-drop-com2 {
@@ -394,9 +294,6 @@
   font-size: var(--h3-font-size, 24px);
   line-height: var(--h3-line-height, 32px);
   font-weight: var(--h3-font-weight, 500);
-  position: absolute;
-  left: 24px;
-  top: 20px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -409,9 +306,6 @@
   font-size: 32px;
   line-height: 40px;
   font-weight: 300;
-  position: absolute;
-  left: 24px;
-  top: 72px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -424,9 +318,6 @@
   font-size: var(--text-big-font-size, 16px);
   line-height: var(--text-big-line-height, 22px);
   font-weight: var(--text-big-font-weight, 400);
-  position: absolute;
-  left: 24px;
-  top: 116px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -442,11 +333,6 @@
   align-items: center;
   justify-content: center;
   height: 48px;
-  position: absolute;
-  right: 24px;
-  left: 24px;
-  top: 162px;
-  overflow: hidden;
 }
 
 .div20 {
@@ -456,7 +342,6 @@
   font-size: var(--button-font-size, 16px);
   line-height: var(--button-line-height, 20px);
   font-weight: var(--button-font-weight, 500);
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -469,7 +354,6 @@
   font-size: var(--table-small-font-size, 12px);
   line-height: var(--table-small-line-height, 14px);
   font-weight: var(--table-small-font-weight, 400);
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -480,15 +364,11 @@
   border-radius: 16px;
   width: 288px;
   height: 234px;
-  position: absolute;
-  left: 1044px;
-  top: 373px;
   box-shadow: var(
     --shadow-400-box-shadow,
     0px 8px 24px -4px rgba(24, 39, 75, 0.08),
     0px 6px 12px -6px rgba(24, 39, 75, 0.12)
   );
-  overflow: hidden;
 }
 
 .ellipse-452 {
@@ -498,9 +378,6 @@
   border-width: 2px;
   width: 4px;
   height: 4px;
-  position: absolute;
-  left: 1px;
-  top: 8px;
 }
 
 .ellipse-462 {
@@ -510,9 +387,6 @@
   border-width: 2px;
   width: 4px;
   height: 4px;
-  position: absolute;
-  left: 8px;
-  top: 8px;
 }
 
 .ellipse-472 {
@@ -522,48 +396,6 @@
   border-width: 2px;
   width: 4px;
   height: 4px;
-  position: absolute;
-  left: 15px;
-  top: 8px;
-}
-
-.header-1280 {
-  background: var(--fon-temnyj-tekst, #20222a);
-  width: 1440px;
-  height: 72px;
-  position: fixed;
-  left: 50%;
-  translate: -50%;
-  top: 0px;
-}
-
-.frame-3 {
-  width: 173px;
-  height: 40px;
-  position: absolute;
-  left: 108px;
-  top: 16px;
-}
-.frame-1 {
-  width: 25.52%;
-  height: 100%;
-  position: absolute;
-  right: 74.48%;
-  left: 0%;
-  bottom: 0%;
-  top: 0%;
-  overflow: visible;
-}
-
-.hot-skins {
-  width: 66.27%;
-  height: 50%;
-  position: absolute;
-  right: 0.21%;
-  left: 33.53%;
-  bottom: 25%;
-  top: 25%;
-  overflow: visible;
 }
 
 .frame-35 {
@@ -572,9 +404,6 @@
   gap: 32px;
   align-items: flex-start;
   justify-content: flex-start;
-  position: absolute;
-  left: 420px;
-  top: 28px;
 }
 
 .div22 {
@@ -584,7 +413,6 @@
   font-size: var(--table-medium-fat-font-size, 14px);
   line-height: var(--table-medium-fat-line-height, 16px);
   font-weight: var(--table-medium-fat-font-weight, 500);
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -597,20 +425,6 @@
   font-size: var(--table-medium-fat-font-size, 14px);
   line-height: var(--table-medium-fat-line-height, 16px);
   font-weight: var(--table-medium-fat-font-weight, 500);
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.div23 {
-  color: var(--tekst-i-elementy-na-tyomnom-fone, #ffffff);
-  text-align: left;
-  font-family: var(--table-medium-fat-font-family, "Rubik-Medium", sans-serif);
-  font-size: var(--table-medium-fat-font-size, 14px);
-  line-height: var(--table-medium-fat-line-height, 16px);
-  font-weight: var(--table-medium-fat-font-weight, 500);
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -622,9 +436,6 @@
   gap: 24px;
   align-items: center;
   justify-content: flex-end;
-  position: absolute;
-  right: 108px;
-  top: 16px;
 }
 
 .frame-4 {
@@ -635,17 +446,12 @@
   flex-shrink: 0;
   width: 96px;
   height: 40px;
-  position: relative;
 }
 
 .russia {
   border-radius: 8px;
   width: 16px;
   height: 16px;
-  position: absolute;
-  left: 12px;
-  top: 12px;
-  overflow: visible;
 }
 
 .ru {
@@ -655,9 +461,6 @@
   font-size: var(--table-medium-font-size, 14px);
   line-height: var(--table-medium-line-height, 16px);
   font-weight: var(--table-medium-font-weight, 400);
-  position: absolute;
-  left: 36px;
-  top: 12px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -666,10 +469,6 @@
 .div24 {
   width: 12px;
   height: 12px;
-  position: absolute;
-  right: 14px;
-  top: 14px;
-  overflow: visible;
 }
 
 .frame-360 {
@@ -679,7 +478,6 @@
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
-  position: relative;
 }
 
 .frame-7 {
@@ -688,18 +486,12 @@
   flex-shrink: 0;
   width: 40px;
   height: 40px;
-  position: relative;
-  overflow: hidden;
 }
 
 .frame-5 {
   border-radius: 20px;
   width: 40px;
   height: 40px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: visible;
 }
 
 .frame-359 {
@@ -709,7 +501,6 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  position: relative;
 }
 
 .div25 {
@@ -719,7 +510,6 @@
   font-size: var(--table-medium-font-size, 14px);
   line-height: var(--table-medium-line-height, 16px);
   font-weight: var(--table-medium-font-weight, 400);
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -732,7 +522,6 @@
   font-size: var(--table-medium-font-size, 14px);
   line-height: var(--table-medium-line-height, 16px);
   font-weight: var(--table-medium-font-weight, 400);
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -742,32 +531,21 @@
   flex-shrink: 0;
   width: 12px;
   height: 12px;
-  position: relative;
-  overflow: visible;
 }
 
 .div27 {
   width: 75px;
   height: 48px;
-  position: absolute;
-  left: 420px;
-  top: 64px;
 }
 
 .rectangle-72 {
   background: var(--akcentnyj, #f4c038);
   width: 75px;
   height: 2px;
-  position: absolute;
-  left: 0px;
-  top: 6px;
 }
 
 .frame-3712 {
   background: var(--podlozhka, #272e3b);
   width: 1440px;
   height: 1px;
-  position: absolute;
-  left: 0px;
-  top: 72px;
 }

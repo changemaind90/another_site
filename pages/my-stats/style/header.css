@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    width: 1440px;
+    height: 72px;
+    padding-top: 16px;
+    background: var(--fon-temnyj-tekst, #20222a);
+}
+
+.header_logo_container {
+    display: flex;
+    width: 173px;
+    height: 40px;
+    margin-left: 108px;
+    margin-right: 139px;
+}
+
+.header_logo {
+    width: 44px;
+    height: 40px;
+    margin-right: 14px;
+}
+
+.header_logo_text {
+    margin-top: 10px;
+    width: 115px;
+    height: 20px;
+}
+
+.nav_menu {
+    display: flex;
+    width: 420px;
+    gap: 32px;
+    margin-right: 297px;
+    color: var(--tekst-i-elementy-na-tyomnom-fone, #ffffff);
+  text-align: left;
+  font-family: var(--table-medium-fat-font-family, "Rubik-Medium", sans-serif);
+  font-size: var(--table-medium-fat-font-size, 14px);
+  line-height: var(--table-medium-fat-line-height, 16px);
+  font-weight: var(--table-medium-fat-font-weight, 500);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
