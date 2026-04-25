@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/reset.css">         <!-- СБРОС СТИЛЕЙ -->
+    <link rel="stylesheet" href="styles/header.css">        <!-- ХЕДЕР СТИЛИ -->
+    <link rel="stylesheet" href="styles/items_gallery.css"> <!-- СТИЛИ ГАЛЕРЕи СКИНОВ -->
+    <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/inventory.css">
+    <link rel="stylesheet" href="styles/footer.css">        <!-- СТИЛИ ФУТЕРА -->
+    
+    <!-- ШРИФТЫ С ГУГЛА -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div                 class="header_inner">
+            <div             class="header_logo">
+                <img         class="logo" src="img/logo.svg" alt="Логотип сайта">
+                <div         class="logo_text"><span>Skin</span>Cash</div>
+            </div>
+            <nav             class="header_menu">
+                <ul          class="menu_list">
+                    <li      class="menu_item"><a class="link" href="#">Помощь</a></li>
+                    <li      class="menu_item"><a class="link" href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <div             class="custom-select" id="language-selector">
+                <div         class="selected-option">
+                    <img     src="https://flagcdn.com/ru.svg" alt="RU" />
+                RU
+                </div>
+                <div         class="options">
+                    <div     class="option" data-lang="RU">
+                        <img src="https://flagcdn.com/ru.svg" alt="RU" /> RU
+                    </div>
+                    <div     class="option" data-lang="EN">
+                        <img src="https://flagcdn.com/gb.svg" alt="EN" /> EN
+                    </div>
+                </div>
+                <svg>
+                    
+                </svg>
+            </div>
+
+            <div             class="header_user">
+                <img         class="user_logo" src="img/u_avatar.png" alt="Иконка пользователя">
+
+                <div         class="user_text__container">
+                    <p       class="user_text">Привет, </p>
+                    <p       class="user_text_name">RichMan90210</p>
+                </div>
+
+                <div         class="user_menu">
+                    <ul      class="menu_list">
+                        <li  class="list_item">Профиль</li>
+                        <li  class="list_item">Настройки</li>
+                        <li  class="list_item">Выход</li>
+                    </ul>
+                </div>
+
+                <svg>
+                    
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section             class="hero">
+           <h1               class="hero_title">Пополненеие счёта</h1>
+           <a                class="hero_link" href="#">Tastygo.gg</a>
+           <input            class="hero_input" placeholder=" " type="text" name="" id="">
+           <img              class="hero_input_svg" src="./img/checked.svg" alt="">
+           <div              class="hero_question_container">
+               <img          class="hero_question_svg" src="img/why.svg"    alt="">
+               <p            class="hero_question_text">Где найти мою ссылку на обмен?</p>
+           </div>
+        </section>
+
+           <section                 class="inventory">
+               <h2                  class="inventory_title">Выберите инвентарь</h2>
+               <div                 class="inventory__chooser">
+                <ul                 class="choose_container">
+                    <li             class="chooser_item active" data-game="game1">
+                        <img        class="chooser_icon" src="img/gallery/portrait_mode.svg" alt="Игра 1">
+                        <div        class="chooser_text_container">
+                            <p      class="c_title">Игра 1</p>
+                            <p      class="c_text">14 предметов на сумму <span class="chooser_cost">83 351.3 ₽</span></p>
+                        </div>
+                    </li>
+                    <li             class="chooser_item" data-game="game2">
+                        <img        class="chooser_icon" src="img/gallery/night_portrait.svg" alt="Игра 2">
+                        <div        class="chooser_text_container">
+                            <p      class="chooser_title">Игра 2</p>
+                            <p      class="chooser_text">8 предметов на сумму<span class="chooser_cost"> 12 547.23 ₽</span></p>
+                        </div>
+                    </li>
+                </ul>
+               </div>
+               <h3                  class="skin_choose">Выберите скины для обмена</h3>
+                    
+               <button              class="chooser_btn_refresh">Обновить инвентарь</button>
+               <div                 class="skins">
+                    <div            class="skins_top">
+                        <input      class="" type="checkbox">
+                        <p          class="choose_all">Выбрать все</p>
+                        <svg>
+                        </svg>
+                        <input      class="skins_search" type="search">
+                        <div        class="hotskins">
+                            <img    src="img/hot.svg" alt="">
+                            <p      class="hotskins_text">Только горячие цены</p>
+                            <input  type="checkbox">
+                        </div>
+                        <div        class="skins_range">
+                            <!-- выпадющий список  -->
+                        </div>
+                    </div>
+           </section>
+
+                <div                class="skins-gallery" id="skins-gallery">
+                        <!-- Тут будут скины, динамически подгружаемые -->
+                </div>
+                
+                <div                class="skins_couter_summary">
+                    <p              class="skins_left">Ещё 521 предмета в инвентаре нельзя продать</p>
+                    <div            class="summary_inner">
+                        <img        class="why_img" src="img/why.svg" alt="">
+                        <span       class="why_text">Почему?</span>
+                    </div>
+                </div>
+           </div>
+        
+    </main>
+
+    <footer>
+        <div                class="footer_inner">
+            <div            class="footer_item">
+                <p          class="footer_item_text">Выбрано 3 скина на сумму</p>
+                <p          class="footer_item_text_cost">12 240.65 ₽</p>
+            </div>
+            <div            class="footer_drop">
+                <img        class="footer_drop_icon" src="img/drop.svg" alt="Иконка сброса">
+                <p          class="footer_drop_text">Сбросить выбор</p>
+            </div>
+            <div            class="footer_btn">
+                <button     class="bill">
+                    Пополнить счёт
+                </button>
+            </div>
+        </div>
+    </footer>
+    <script src="script/header_lang_script.js"></script>
+    <script src="script/user_menu.js"></script>
+    <script src="script/items_gallery.js"></script>
+</body>
+</html>
