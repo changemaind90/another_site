@@ -1,13 +1,13 @@
 header {
     width: 1440px;
     height: 88px;
-    border-bottom: 1px solid #3D4554;
+    background-color: #20222A;
 }
 
 .header_inner {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 1440px;
     height: 100%;
     margin-left: 111px;
 }
@@ -158,5 +158,12 @@ header {
 
 .user_menu li:hover {
   background-color: #f0f0f0;
+}
+
+.header_login {
+    width: 97px;
+    height: 40px;
+    background-color: #F4C038;
+    color: #20222A;
 }
 
