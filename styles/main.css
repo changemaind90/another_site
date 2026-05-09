@@ -1,19 +1,16 @@
 main {
-    width:1440px;
+    /* max-width: 1440px; */
+    
+    width: 100%;
     height: 780px;
-    background-image: url('../img/main-bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; 
+    /* margin: 0 auto; */
 }
 
 section {
-    margin-left: 108px;
+    padding-left: 108px;
 }
 
 .main_title {
-    width: 704px;
-    height: 240px;
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
     font-size: 56px;
@@ -22,9 +19,10 @@ section {
     margin-bottom: 40px;
 }
 
-button {
+.main_btn {
     width: 240px;
     height: 64px;
+    border-radius: 48px;
     background: #F4C038;
     color: #20222A;
 }
